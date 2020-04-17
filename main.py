@@ -31,6 +31,8 @@ class color:
 parser = OptionParser()
 now = datetime.datetime.now()
 
+CHROME_DVR_DIR = C:\webdrivers
+
 
 #Args
 parser.add_option("-u", "--username", dest="username",help="Choose the username")
