@@ -119,7 +119,7 @@ banner = color.BOLD + color.RED +'''
   {4}[{5}-{6}]--> {7}coded by Metachar
   {8}[{9}-{10}]-->{11} brute-force tool                      '''.format(color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN)
 
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path=r"C:\webdriver\chromedriver.exe")
 optionss = webdriver.ChromeOptions()
 optionss.add_argument("--disable-popup-blocking")
 optionss.add_argument("--disable-extensions")
